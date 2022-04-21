@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2? family= League+Spartan & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat+Alternates:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: var(--text-color);
+    margin-left: 140px;
+    margin-top: 4%;
+}
+
+#subtitulo{
+    font-family: 'League Spartan', sans-serif;
+    color: var(--text-color);
+    margin-left: 140px;
+}
+
+#check{
+    display: inline-block;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    background-color: var(--bkg-color);
+    background-image: url(https://images.unsplash.com/photo-1650463456578-682fee007acd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1422&q=80);
+    background-size: cover;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1em;
+    color: var(--text-color);
+    margin-left: 35%;
+    margin-top: 2%;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    transform: translate(-25%, 0%);
+}
+
+input, select, textarea, button {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1em;
+    color: #505050;
+    border-radius: 5px;
+    background-color: var(--bkg-color);
+}
+.grupo:before, .grupo:after {
+    display: table;
+}
+.grupo:after {
+    clear: both;
+}
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: var(--text-color);
+    display: block;
+}
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #505050;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+.campo select option{
+    padding-right: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #ebebeb;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: #1a9921;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    
+    top: 90%;
+    left: 50%;
+    margin-left: 165px;
+   
+}
+.botao:hover{
+    background: #37b83e;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+.botao, select{
+    cursor: pointer;
+}
+
+:root{
+    --text-color: #ffffff;
+    --bkg-color: #ececec;
+}
+
+.body-register{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 5px;
+    height: 610px;
+    width: 500px;
+    display: grid;
+    justify-content: center;
+}
