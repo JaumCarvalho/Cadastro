@@ -35,7 +35,6 @@ body{
     color: var(--text-color);
     margin-left: 35%;
     margin-top: 2%;
-    justify-content: center;
     display: grid;
     place-items: center;
     justify-content: center;
